@@ -1,6 +1,6 @@
 import UserContext from "./UserContext";
 import { useState } from "react";
-const URL = "http://localhost:5004";
+const URL = "";
 
 const UserState = (props) => {
   const [user, setUser] = useState([]);
