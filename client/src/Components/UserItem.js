@@ -31,6 +31,7 @@ const Useritem = (props) => {
         event.preventDefault();
         updateUser.eavailable = String(true) === updateUser.eavailable
         userUpdate(updateUser);
+        window.location.reload();
     };
 
     const handleChange = (e) => {
